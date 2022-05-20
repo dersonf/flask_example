@@ -1,0 +1,5 @@
+msb-srv99 ansible_host=192.168.2.199
+
+[all:vars]
+ansible_ssh_user=anderson.ferneda
+ansible_python_interpreter=/usr/bin/python3

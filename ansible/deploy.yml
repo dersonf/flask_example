@@ -1,0 +1,13 @@
+---
+- name: deploy
+  hosts: all
+  remote_user: anderson.ferneda
+  become: False
+  gather_facts: False
+
+  tasks:
+
+  - name: faz o pull do repo
+    ansible.builtin.git:
+      repo: https://github.com/dersonf/flask_example.git
+      dest: /opt/flask_example
