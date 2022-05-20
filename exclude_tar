@@ -1,0 +1,7 @@
+.gitignore
+venv
+flask_example.tar.gz
+.git
+*/__pycache__
+exclude_tar
+ansible
